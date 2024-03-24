@@ -1,0 +1,53 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    background: black;
+}
+.navbar-main{
+    background-color: black;
+}
+.navbar-brand{
+    color: white;
+    width: 30%;
+    font-size: 30px;
+}
+.navbar-nav{
+    width: 100%;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.navbar-nav>li>a{
+    color: white;
+}
+.navbar-nav>li>a:hover{
+    color: #51f57a;
+}
+
+.container-1{
+    margin-top: 70px;
+    padding: 100px;
+    text-align: center;
+    line-height: 20px;
+}
+.container-1>.row>.col-12>h1{
+    font-weight: bold;
+}
+.container-1>.row>.col-12>h1>span{
+    border-bottom: 10px solid #51f57a;
+}
+.container-1>.row>.col-12>p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+.container-1>.row>.col-12>button{
+    color: white;
+    background-color: #33c357;
+    width: 200px;
+    border-radius: 5px;
+}
+.container-1>.row>.col-12>button:hover{
+    background-color: #2e332f;
+}
+
